@@ -1,0 +1,20 @@
+npm init -y 
+
+npm install http express debug
+
+// Para baixar os pacotes das dependencias
+npm install
+
+// No package.json para rodar automaticamente o servidor
+"start": "node ./bin/server.js"
+
+// Nodemon para nao precisar parar a aplica?ão para 
+npm install nodemon -g --save-dev
+
+nodemon bin/server.js 
+
+// Para criar o banco mongo
+mlab.com
+
+ npm install mongoose --save
+ 
