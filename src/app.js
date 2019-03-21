@@ -7,8 +7,8 @@ const mongoose    = require('mongoose');
 const app         = express();
 const router = express.Router();
 
-// conex„o com o banco
-mongoose.connect("mongodb://yargo:6tbkiwac@ds159263.mlab.com:59263/cursonodestore");
+// conex√£o com o banco
+mongoose.connect("");
 
 // Carega as models
 
